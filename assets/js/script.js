@@ -6,6 +6,14 @@ let data = [
         img:[
             1,2,3,4,5,6,7,8,9,10,11,12,13,1,4,15,16
         ]
+    },
+    {
+        nombre: "Cristian Luna",
+        id:"cluna",
+        redes:["https://www.instagram.com/cristhian_ls17","https://www.tiktok.com/@rayitothecat"],
+        img:[
+            23,24,25,26,27,28
+        ]
     }
 ];
 
