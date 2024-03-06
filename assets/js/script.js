@@ -57,7 +57,7 @@ let strHtml="";
 arrShuffle.forEach(element => {
     let strRedes = "";
     element.redes.forEach(red => {
-        strRedes += `<a href="${red}" target="_blank">${red}</a>`
+        strRedes += `<a href="${red}" target="_blank">${red}</a><br>`
     });
     strHtml +=`<article class="thumb">
     <a href="images/${element.id}/fulls/${element.img}.jpg" class="image"><img src="images/${element.id}/thumbs/${element.img}.jpg" alt="" /></a>
