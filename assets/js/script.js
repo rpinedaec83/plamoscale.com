@@ -8,7 +8,15 @@ let data = [
         ]
     },
     {
-        nombre: "Cristian Luna",
+        nombre: "Daniel Campos",
+        id:"dcampos",
+        redes:["https://www.instagram.com/d.de.daniel","https://www.instagram.com/pun.san_gunpla"],
+        img:[
+            29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49
+        ]
+    },
+    {
+        nombre: "Cristhian Luna",
         id:"cluna",
         redes:["https://www.instagram.com/cristhian_ls17","https://www.tiktok.com/@rayitothecat"],
         img:[
@@ -29,7 +37,7 @@ function shuffle(arr){
 let arrShuffle = [];
 let arrImg = []
 data.forEach(element => {
-    console.log(element.img)
+   // console.log(element.img)
     let imgs = element.img;
     imgs.forEach(datos => {
         let data = {
@@ -43,7 +51,7 @@ data.forEach(element => {
 });
 
 arrShuffle = shuffle(arrImg);
-console.log(arrShuffle)
+//console.log(arrShuffle)
 
 /*
 <article class="thumb">

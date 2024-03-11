@@ -88,7 +88,7 @@ section, summary, time, mark, audio, video {
 	font-size: 100%;
 	font: inherit;
 	vertical-align: baseline;
-	text-shadow: 4px 4px 8px #000000;
+
 }
 
 article, aside, details, figcaption, figure,
@@ -193,7 +193,7 @@ input, select, textarea {
 /* Type */
 
 	body, input, select, textarea {
-		color: #a0a0a1;
+		color: #ffffff;
 		font-family: "Source Sans Pro", Helvetica, sans-serif;
 		font-size: 15pt;
 		font-weight: 300;
@@ -979,7 +979,7 @@ input, select, textarea {
 			}
 
 			ul.icons li .icon {
-				color: #505051;
+				color: #ffffff;
 			}
 
 				ul.icons li .icon:before {
